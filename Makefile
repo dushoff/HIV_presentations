@@ -17,6 +17,12 @@ include stuff.mk
 
 ## Content
 
+Sources += $(wildcard *.abs *.txt)
+
+# http://lalashan.mcmaster.ca/theobio/dushoff/index.php/HIV_couples_talk
+
+CANFAR.abs:
+
 ######################################################################
 
 ### Makestuff
