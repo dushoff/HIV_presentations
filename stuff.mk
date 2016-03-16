@@ -8,21 +8,6 @@ Drop = ~/Dropbox
 export ms = $(gitroot)/makestuff
 -include $(ms)/os.mk
 
-Makefile: $(ms) $(subdirs)
-
-$(ms):
-	cd $(dir $(ms)) && git clone $(msrepo)/$(notdir $(ms)).git
-
-## Talk machinery
-
-talkdir = $(ms)/talk
-subdirs += talkdir
-
-## Images
-
-images = $(Drop)/courses/Lecture_images
-subdirs += images
-
 ## Directories
 
 Makefile: $(ms) $(subdirs)
@@ -35,3 +20,12 @@ $(subdirs):
 	-$(RM) $@
 	ln -s $($@) $@
 
+## Talk machinery
+
+talkdir = $(ms)/talk
+subdirs += talkdir
+
+## Images
+
+images = $(Drop)/courses/Lecture_images
+subdirs += images
