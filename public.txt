@@ -15,9 +15,69 @@ Battling the HIV epidemic: the role of mathematical and simulation models
 
 ----------------------------------------------------------------------
 
-SECTION Introduction
+SECTION The HIV Epidemic
 
 ----------------------------------------------------------------------
 
-Rutgers
+HIV prevalence
+
+----------------------------------------------------------------------
+
+Awareness and education
+
+----------------------------------------------------------------------
+
+Dynamics of the disease
+
+----------------------------------------------------------------------
+
+Male circumcision
+
+----------------------------------------------------------------------
+
+Drugs
+
+----------------------------------------------------------------------
+
+Questions
+
+	Why is HIV declining?
+
+	What will it take to keep it declining?
+
+	What will it take to eliminate the disease?
+
+----------------------------------------------------------------------
+
+SECTION Disease modeling
+
+----------------------------------------------------------------------
+
+SUB Testing and treatment
+
+----------------------------------------------------------------------
+
+SUB Routes of spread
+
+----------------------------------------------------------------------
+
+SUB Risk factors and targeting
+
+----------------------------------------------------------------------
+
+SECTION Heterogeneity
+
+----------------------------------------------------------------------
+
+Thanks
+
+	Collaborators
+
+	Funders: CIHR, NIH, JS McDonnell Foundation
+
+	CANFAR
+
+	This audience
+
+
 

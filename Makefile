@@ -22,11 +22,11 @@ format_files = beamer.tmp beamer.fmt
 
 Sources += $(wildcard *.abs *.txt)
 
-public.draft.pdf: public.txt
-
 # http://lalashan.mcmaster.ca/theobio/dushoff/index.php/HIV_couples_talk
 
 CANFAR.abs:
+
+public.draft.pdf: public.txt
 
 ##################################################################
 
