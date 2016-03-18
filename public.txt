@@ -21,31 +21,41 @@ SECTION The HIV Epidemic
 
 ----------------------------------------------------------------------
 
-HIGHFIG dd/HIV_incidence_all.world.yearly.Rout.pdf
+HIGHFIG dd/PLWH_all.world.yearly.Rout.pdf
 
 ----------------------------------------------------------------------
 
-HIGHFIG dd/PLWH_all.world.yearly.Rout.pdf
+HIGHFIG dd/HIV_incidence_all.world.yearly.Rout.pdf
 
 ----------------------------------------------------------------------
 
 Awareness and education
 
+PICTURE Condom
+
 ----------------------------------------------------------------------
 
 Dynamics of the disease
+
+PICTURE Measles
 
 ----------------------------------------------------------------------
 
 Male circumcision
 
+PICTURE wiki logo
+
 ----------------------------------------------------------------------
 
 Testing and care
 
+PICTURE Tutu
+
 ----------------------------------------------------------------------
 
 Drugs
+
+PICTURE Drugs
 
 ----------------------------------------------------------------------
 
@@ -62,6 +72,8 @@ Questions
 SECTION Disease modeling
 
 ----------------------------------------------------------------------
+
+Models
 
 SUB Testing and treatment
 
