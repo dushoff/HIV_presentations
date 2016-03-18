@@ -9,7 +9,6 @@ target pngtarget pdftarget vtarget acrtarget: public.draft.pdf
 # make files
 
 Sources = Makefile .gitignore README.md stuff.mk LICENSE.md
-include stuff.mk
 # include $(ms)/perl.def
 
 ##################################################################
@@ -81,6 +80,8 @@ sir:
 
 ## Change this name to download a new version of the makestuff directory
 # Makefile: start.makestuff
+
+include stuff.mk
 
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
