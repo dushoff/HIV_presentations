@@ -40,6 +40,17 @@ read.Rout: test.Rout read.R
 
 ######################################################################
 
+dd/%: dd
+	cd $< && $(MAKE) $*
+	touch $@
+
+dd:
+	cd $(gitroot) && $(MAKE) Disease_data
+	/bin/ln -s $(gitroot)/Disease_data $@
+
+
+##################################################################
+
 ### Makestuff
 
 ## Change this name to download a new version of the makestuff directory

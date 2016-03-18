@@ -3,13 +3,15 @@ Battling the HIV epidemic: the role of mathematical and simulation models
 
 \vfill 
 
-	CANFAR
+	CANFAR McMaster 
+	
+	HIV/AIDS Research and Healthcare Conference 2016
 
 \vfill
 
 	Jonathan Dushoff
 
-	McMaster University
+	Department of Biology
 
 \vfill
 
@@ -19,7 +21,11 @@ SECTION The HIV Epidemic
 
 ----------------------------------------------------------------------
 
-HIV prevalence
+HIGHFIG dd/HIV_incidence_all.world.yearly.Rout.pdf
+
+----------------------------------------------------------------------
+
+HIGHFIG dd/PLWH_all.world.yearly.Rout.pdf
 
 ----------------------------------------------------------------------
 
@@ -32,6 +38,10 @@ Dynamics of the disease
 ----------------------------------------------------------------------
 
 Male circumcision
+
+----------------------------------------------------------------------
+
+Testing and care
 
 ----------------------------------------------------------------------
 
