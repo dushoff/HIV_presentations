@@ -246,6 +246,24 @@ SECTION Heterogeneity
 
 ----------------------------------------------------------------------
 
+The resilience of infectious disease
+
+BC
+
+1967: It's time to close the book on infectious diseases
+
+SCALEFIG 0.6 images/smallpox.jpg
+
+NC
+
+SCALEFIG 0.6 images/headlines.jpg
+
+SCALEFIG 0.6 images/book.jpg
+
+EC
+
+--------------------------------------------------------------
+
 Human heterogeneity
 
 SIGHFIG 0.6 images/maasai.jpg
@@ -268,23 +286,6 @@ SIGHFIG 0.6 images/bento.jpg
 
 ----------------------------------------------------------------------
 
-The resilience of infectious disease
-
-BC
-
-1967: It's time to close the book on infectious diseases
-
-SCALEFIG 0.6 images/smallpox.jpg
-
-NC
-
-SCALEFIG 0.6 images/headlines.jpg
-
-SCALEFIG 0.6 images/book.jpg
-
-EC
-
---------------------------------------------------------------
 
 Heterogeneity in TB
 
