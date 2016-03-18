@@ -29,36 +29,6 @@ HIGHFIG dd/HIV_incidence_all.world.yearly.Rout.pdf
 
 ----------------------------------------------------------------------
 
-Awareness and education
-
-PICTURE Condom
-
-----------------------------------------------------------------------
-
-Dynamics of the disease
-
-PICTURE Measles
-
-----------------------------------------------------------------------
-
-Male circumcision
-
-PICTURE wiki logo
-
-----------------------------------------------------------------------
-
-Testing and care
-
-PICTURE Tutu
-
-----------------------------------------------------------------------
-
-Drugs
-
-PICTURE Drugs
-
-----------------------------------------------------------------------
-
 Questions
 
 	Why is HIV declining?
@@ -69,17 +39,274 @@ Questions
 
 ----------------------------------------------------------------------
 
+Awareness and education
+
+BC
+
+FIG images/clinic_warnings.jpg
+
+NC
+
+FIG images/linked.jpg
+
+EC
+
+----------------------------------------------------------------------
+
+Dynamics of the disease
+
+WHYFIG images/ew_measles.png
+
+----------------------------------------------------------------------
+
+Male circumcision
+
+FIG images/circumcision_ancient.jpg
+
+----------------------------------------------------------------------
+
+Testing and care
+
+FIG images/tutu.jpg
+
+----------------------------------------------------------------------
+
+Drugs
+
+FIG images/cocktail.jpg
+
+----------------------------------------------------------------------
+
 SECTION Disease modeling
 
 ----------------------------------------------------------------------
 
 Models
 
-SUB Testing and treatment
+BC
+
+FIG images/flat.png
+
+NC
+
+	A model is a simplified view of the world
+
+	Allows linking between assumptions and outcomes
+
+EC
 
 ----------------------------------------------------------------------
 
-SUB Routes of spread
+Dynamic models
+
+WIDEFIG sir/sir.three.pdf
+
+Small-scale events $\displaystyle \Leftrightarrow$ Large-scale patterns and outcomes
+
+----------------------------------------------------------------------
+
+Dynamic models
+
+BC
+
+COLFIG images/trans.jpg
+
+NC
+
+COLFIG images/ew_measles.png
+
+EC
+
+
+----------------------------------------------------------------------
+
+Dynamic models
+
+FIG images/clear.jpg
+
+----------------------------------------------------------------------
+
+BC
+
+SIDEFIG 0.65 dd/PLWH_all.world.yearly.Rout.pdf
+
+NC
+
+SIDEFIG 0.65 dd/HIV_incidence_all.world.yearly.Rout.pdf
+
+EC
+
+----------------------------------------------------------------------
+
+SUB Gendered effects of intervention
+
+----------------------------------------------------------------------
+
+Male circumcision and HIV transmission
+
+WIDEFIG images/circumcision_ancient.jpg
+
+----------------------------------------------------------------------
+
+Male circumcision and HIV transmission
+
+FIG images/circumcision_nullts.png
+
+----------------------------------------------------------------------
+
+Male circumcision and HIV transmission
+
+FIG images/circumcision_ts.png
+
+----------------------------------------------------------------------
+
+Transmission and prevalence
+
+FIG images/endemic.Rout-0.png
+
+----------------------------------------------------------------------
+
+Transmission and prevalence
+
+FIG images/endemic.Rout-1.png
+
+----------------------------------------------------------------------
+
+Heterosexual transmission and prevalence
+
+HIGHFIG images/circumcision_contours.png
+
+----------------------------------------------------------------------
+
+TSUB Testing and treatment
+
+FIG images/cocktail.jpg
+
+----------------------------------------------------------------------
+
+Modeling the effects of universal treatment
+
+WIDEFIG images/granich_boxes.png
+
+----------------------------------------------------------------------
+
+SIGHFIG 1.2 images/granich_ts.jpg
+
+----------------------------------------------------------------------
+
+TSUB Routes of HIV transmission
+
+HIGHFIG images/maternal_health.jpg
+
+----------------------------------------------------------------------
+
+Routes of HIV transmission
+
+HIGHFIG images/pre_diag.pdf 
+
+----------------------------------------------------------------------
+
+Routes of HIV transmission
+
+HIGHFIG images/post_diag.pdf 
+
+----------------------------------------------------------------------
+
+Routes of HIV transmission
+
+HIGHFIG images/ZambiaCouples.pdf
+
+----------------------------------------------------------------------
+
+Routes of HIV transmission
+
+HIGHFIG images/ObservedRoutes.pdf
+
+----------------------------------------------------------------------
+
+Routes of HIV transmission
+
+HIGHFIG images/IndexRoutes.pdf
+
+----------------------------------------------------------------------
+
+Routes of HIV transmission
+
+HIGHFIG images/Projections.pdf
+
+----------------------------------------------------------------------
+
+Success!
+
+HIGHFIG images/recommendations.cover.png
+
+----------------------------------------------------------------------
+
+SECTION Heterogeneity
+
+----------------------------------------------------------------------
+
+Human heterogeneity
+
+SIGHFIG 0.6 images/maasai.jpg
+
+SIGHFIG 0.6 images/inuit.jpg
+
+----------------------------------------------------------------------
+
+Human heterogeneity
+
+FIG images/Lesotho_children.jpg
+
+----------------------------------------------------------------------
+
+Human heterogeneity
+
+SIGHFIG 0.6 images/dump_workers.jpg
+
+SIGHFIG 0.6 images/bento.jpg
+
+----------------------------------------------------------------------
+
+The resilience of infectious disease
+
+BC
+
+1967: It's time to close the book on infectious diseases
+
+SCALEFIG 0.6 images/smallpox.jpg
+
+NC
+
+SCALEFIG 0.6 images/headlines.jpg
+
+SCALEFIG 0.6 images/book.jpg
+
+EC
+
+--------------------------------------------------------------
+
+Heterogeneity in TB
+
+BC
+
+SCALEFIG 0.9 images/tbincome.pdf
+
+NC
+
+	{\bf Progression}: Nutrition, stress
+
+	{\bf Contact}: Overcrowding, poor ventilation
+
+	{\bf Cure}: Access to medical care
+
+EC
+
+--------------------------------------------------------------------
+
+Heterogeneity and elimination
+
+FIG images/endemic.Rout-1.png
 
 ----------------------------------------------------------------------
 
@@ -87,7 +314,39 @@ SUB Risk factors and targeting
 
 ----------------------------------------------------------------------
 
-SECTION Heterogeneity
+Condom use
+
+FIG images/isolate_panel_plot.Rout.pdf
+
+----------------------------------------------------------------------
+
+HIV risk
+
+FIG images/kw5.iso_plot.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+HIV risk
+
+FIG images/kw5.combAnchor_pic.Rout.pdf
+
+----------------------------------------------------------------------
+
+Future work
+
+BC
+
+COLFIG images/ageTalk6.Rout.pdf
+
+NC
+
+COLFIG images/post_diag.pdf 
+
+EC
+
+----------------------------------------------------------------------
+
+SIGHFIG 1.2 images/isolate_panel_plot.Rout.pdf
 
 ----------------------------------------------------------------------
 

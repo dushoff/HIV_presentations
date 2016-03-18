@@ -15,16 +15,6 @@ Makefile: $(ms) $(subdirs)
 $(ms):
 	cd $(dir $(ms)) && git clone $(msrepo)/$(notdir $(ms)).git
 
-## Talk machinery
-
-talkdir = $(ms)/talk
-subdirs += talkdir
-
-## Images
-
-images = $(Drop)/courses/Lecture_images
-subdirs += images
-
 $(subdirs): 
 	$(MAKE) -f $(ms)/repos.mk gitroot=$(gitroot) $($@)
 	-$(RM) $@

@@ -40,6 +40,25 @@ read.Rout: test.Rout read.R
 
 ######################################################################
 
+## Other directories
+
+## Talk machinery
+
+talkdir = $(ms)/talk
+subdirs += talkdir
+
+## Images
+
+images = $(Drop)/courses/Lecture_images
+subdirs += images
+
+images/%: images ;
+
+images:
+	$(LN) $(images) $@
+
+## Disease data
+
 dd/%: dd
 	cd $< && $(MAKE) $*
 	touch $@
@@ -48,6 +67,13 @@ dd:
 	cd $(gitroot) && $(MAKE) Disease_data
 	/bin/ln -s $(gitroot)/Disease_data $@
 
+## SIR family
+
+sir/%: sir ;
+sir: 
+	$(LN) $(gitroot)/SIR_model_family $@
+
+## Old resources
 
 ##################################################################
 
