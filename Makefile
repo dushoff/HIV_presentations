@@ -2,7 +2,7 @@
 ### Hooks for the editor to set the default target
 current: target
 
-target pngtarget pdftarget vtarget acrtarget: public.draft.pdf 
+target pngtarget pdftarget vtarget acrtarget: archive/canfar.pdf 
 
 ##################################################################
 
@@ -39,6 +39,17 @@ read.Rout: test.Rout read.R
 
 ######################################################################
 
+## Archive
+
+Archive += $(wildcard archive/*)
+
+archive:
+	mkdir $@
+
+archive/canfar.pdf: public.draft.pdf
+	$(MAKE) archive
+	$(copy)
+
 ## Other directories
 
 ## Talk machinery
@@ -49,7 +60,6 @@ subdirs += talkdir
 ## Images
 
 images = $(Drop)/courses/Lecture_images
-subdirs += images
 
 images/%: images ;
 
